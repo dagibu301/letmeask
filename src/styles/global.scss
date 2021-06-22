@@ -1,3 +1,9 @@
+$primary-color: #835afd;
+$secondary-color: #f8f8f8;
+
+$white: #fff;
+$grey: #a8a8b3;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +11,7 @@
 }
 
 body {
-  background: #f8f8f8;
+  background: $secondary-color;
   color: #29292e;
 }
 
