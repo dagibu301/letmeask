@@ -3,6 +3,7 @@ import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 
 import '../styles/auth.scss';
+import { Button } from '../components/Button';
 
 export const Home = () => {
   return (
@@ -26,7 +27,7 @@ export const Home = () => {
               name=''
               id=''
             />
-            <button type='submit'>Join the room</button>
+            <Button type='submit'>Join the room</Button>
           </form>
         </div>
       </main>
