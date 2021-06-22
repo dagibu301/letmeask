@@ -1,5 +1,8 @@
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
+import googleIconImg from '../assets/images/google-icon.svg';
+
+import '../styles/auth.scss';
 
 export const Home = () => {
   return (
@@ -10,10 +13,12 @@ export const Home = () => {
         <p>Solve doubts of your audience in real time</p>
       </aside>
       <main>
-        <div>
+        <div className='main-content'> 
           <img src={logoImg} alt='letmeask' />
-          <button>Create your room with Google</button>
-          <div>Or join a room</div>
+          <button className='create-room'>
+            <img src={googleIconImg} alt="Google Icon" />
+            Create your room with Google</button>
+          <div className='separator'>Or join a room</div>
           <form>
             <input
               placeholder='Enter the code of your room'
